@@ -1,6 +1,32 @@
-header {
-  color: DB5375;
+ul {
+  text-align: center;
 }
-div {
-  background-color: DFBE99;
+li {
+  font-size: 20px;
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+}
+h1 {
+  font-size: 50px;
+}
+h1,
+nav {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+img {
+  left: 0px;
+  width: 200px;
+  padding: 10px, 10px;
+}
+
+section {
+  margin-left: 30px;
+}
+footer {
+  padding: 20px;
+  text-align: center;
 }
