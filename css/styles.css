@@ -1,1 +1,14 @@
-
+header {
+  background: hsla(333, 100%, 53%, 1);
+}
+div {
+  background: rgb(248, 155, 41);
+}
+button {
+  background-color: rgb(97, 236, 97);
+  color: white;
+}
+footer {
+  background: rgba(11, 0, 0, 0.896);
+  color: white;
+}
