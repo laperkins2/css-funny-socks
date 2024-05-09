@@ -1,13 +1,6 @@
 header {
   background: hsla(333, 100%, 53%, 1);
 }
-div {
-  background: rgb(248, 155, 41);
-}
-button {
-  background-color: rgb(97, 236, 97);
-  color: white;
-}
 
 ul {
   text-align: center;
@@ -27,19 +20,44 @@ nav {
   text-align: center;
   padding-bottom: 10px;
 }
+h2 {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div {
+  background: rgb(248, 155, 41);
+}
+div > h3,
+div > p {
+  margin: 0.5rem;
+}
 
 img {
-  left: 0px;
   width: 200px;
   padding: 10px, 10px;
+  margin: 0.5rem;
+}
+.product1 > img {
+  width: 200px;
+  height: 115px;
+  padding: 10px, 10px;
+  margin: 0.5rem;
 }
 
 section {
-  margin-left: 30px;
+  margin: 30px;
+}
+
+button {
+  background-color: rgb(97, 236, 97);
+  color: white;
+  padding: 0.5rem;
+  margin: 0.5rem;
 }
 footer {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   background: rgba(11, 0, 0, 0.896);
   color: white;
+  margin: 1rem;
 }
